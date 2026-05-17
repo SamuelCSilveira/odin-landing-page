@@ -3,7 +3,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-a {
+a, .hero-secondary-text {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
@@ -31,8 +31,47 @@ a {
     gap: 16px;
 }
 
+.hero {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 16px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-wrap: wrap;
+    width: 40vw;
+    gap: 8px;   
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(229, 231, 235, 50%)  ;
+    color: #F9FAF8;
+    flex: 1;
+}
+
 h1 {
     font-size: 48px;
     color: #F9FAF8;
     weight: 900;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    background-color: #3882F6;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 24px;
 }
