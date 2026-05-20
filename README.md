@@ -1,1 +1,2 @@
-# odin-landing-page
+# Odin Landing Page
+The following page was developed as a project for The Odin Project curriculum using all of the HTML knowledge learned so far, with particular emphasis on the flexbox layout model, which was the latest topic of study.
