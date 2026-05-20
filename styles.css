@@ -142,3 +142,32 @@ h2 {
     width: 65vw;
     align-self: center;
 }
+
+.call-to-action {
+    padding: 100px 10vw;
+}
+
+.cta-modal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 60px 100px;
+    border-radius: 8px;
+}
+
+.cta-text {
+    font-size: 20px;
+    color: #E5E7EB;
+}
+
+h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #E5E7EB
+}
+
+.cta-button {
+    border: solid 3px;
+    border-color: #E5E7EB;
+}
